@@ -1,0 +1,16 @@
+.navbar{
+    height:10%;
+    width:100%;
+    background:#503baf;
+}
+.hdr1{
+    height:5%;
+    width:100%;
+    background:#af3b3b;
+
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+}

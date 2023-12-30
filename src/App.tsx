@@ -1,13 +1,19 @@
 import './App.css';
 import Menubar from './components/sidebar/Sidemenubar';
+import Navbar from './components/navbar/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">  </header> */}
+        <div className="page">
+              <div className="content">
+                 <Navbar/>
+              </div>
 
-      <Menubar/>
+               <Menubar/>
+        </div>
+
     </div>
   );
 }
